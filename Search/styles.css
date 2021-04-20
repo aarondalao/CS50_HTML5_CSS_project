@@ -1,0 +1,474 @@
+/* 
+
+
+Above was the css normalization: remove this BEFORE submitting!!!! 
+
+
+
+*/
+
+/*
+
+initial reset values
+VVVVVVVVVVVVVVVVVVV remove this if something happens VVVVVVVV 
+
+*/
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+font,
+img,
+ol,
+ul,
+li,
+form,
+label
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+
+
+/* start */
+
+body,
+nav,
+div,
+main,
+header,
+.input_container {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+
+}
+
+a {
+  color: #121212;
+  text-decoration: wavy;
+}
+
+
+
+.page-wrapper {
+  min-height: 100%;
+  margin: 0 auto -60px;
+  display: block;
+  position: relative;
+
+}
+
+#header_container {
+
+  width: 100%;
+  background-color: #f2f2f2;
+  display: inline-block;
+  position: absolute;
+
+}
+
+.navigation_bar {
+    float: right;
+
+}
+
+ul#navigation_list {
+  margin: 10px;
+  
+  float: left;
+}
+
+ul#navigation_list li {
+  margin: 5px;
+  padding: 5px;
+  float: left;
+  position: relative;
+  list-style: none;
+}
+
+ul#navigation_list li a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul#navigation_list li a:hover {
+  text-decoration: underline;
+}
+
+ul#navigation_list li a:visited {
+  text-decoration: wavy blue;
+}
+
+
+.leftnav {
+  position: relative;
+  float: left;
+}
+
+.logo {
+  
+  padding: 10px 10px 5px 5px;
+  position: relative;
+}
+
+/* article */
+
+main {
+  margin: auto;
+  padding: 50px 50px 50px 50px;
+
+  display: block;
+}
+
+.advance_search_specific_container {
+  max-width: 1500px;
+  min-width: 200px;
+  width: 85%;
+  display: block;
+}
+
+
+
+.heading_text {
+  color: #d93025;
+  font-size: 20px;
+  margin-top: 80px;
+}
+
+.inside_container {
+  margin: 50px 50px 50px 20px;
+  display: block;
+  text-align: center;
+
+
+}
+
+.distancia_amigo {
+  border: 1px grey;
+
+  margin: 15px 15px;
+  padding: auto;
+}
+
+/* input stylings */
+
+.input_container {
+  padding: 5px;
+  min-width: 315px;
+
+  width: 35%;
+  border: 1px solid #a3a3a3;
+  border-radius: 20px;
+  position: relative;
+  display: inline-block;
+
+}
+
+.input_container input {
+  border: none;
+  width: 90%;
+  border-radius: 20px;
+  border: transparent;
+}
+
+.search .fa-search {
+  position: relative;
+  float: right;
+  top: -100px;
+  left: 7px;
+  font-size: 15px;
+}
+
+.input_container input[type="text"]:focus {
+  
+  outline: none;
+  color: none;
+
+}
+
+.input_container:hover {
+  box-shadow: 1px 1px 3px 3px #a1a1a1;
+}
+
+.btn {
+  background-color: #f6f6f6;
+  margin: 10px;
+  padding: 15px 20px;
+  font: 12px arial, serif;
+  border-radius: 3px;
+  color: rgb(90, 90, 90);
+  border: none;
+}
+
+.btn:hover {
+  border: 0.5px solid rgb(77, 77, 77);
+  color: rgb(77, 77, 77);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* 
+
+
+  ADVANCE SEARCGH RELATED
+
+
+*/
+
+/* input container boxes  */
+
+
+.line_separator {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #999999;
+}
+
+
+div.A {
+  width: 100%;
+  clear: both;
+
+}
+
+div.A div.AA {
+  clear: both;
+
+}
+
+div.AAA {
+  vertical-align: middle;
+  display: inline-block;
+  min-width: 167px;
+  width: 16%;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+}
+
+input.text-input {
+  padding-right: 5px;
+}
+
+
+/* MAIN containers for the advance search page */
+div.AA {
+
+  padding-top: 0.5px;
+}
+
+div.AAAA {
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+div.AAAAB {
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+
+div.AAAB,
+div.AAFA {
+  height: 30px;
+
+  display: table-cell;
+  vertical-align: center;
+  font-size: 14px;
+
+}
+
+div.AAB {
+  display: inline-block;
+  min-width: 167px;
+  min-height: 47px;
+  vertical-align: middle;
+  width: 50%;
+
+}
+
+
+
+/* sub containers */
+
+div.AAD {
+
+  display: inline-block;
+  min-width: 167px;
+  width: 16%;
+  height: 40px;
+  vertical-align: middle;
+  color: #333333;
+  line-height: 16px;
+
+}
+
+div.AAE {
+
+  display: inline-block;
+  min-width: 167px;
+  width: 50%;
+  min-height: 39px;
+  vertical-align: middle;
+
+}
+
+div.AAEA {
+  padding-right: 16px;
+}
+
+/* NOTES OR HINTS PART */
+div.AAC {
+  display: inline-block;
+  padding-left: 5px;
+  font-size: 13px;
+  width: 33%;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+div.AAF {
+  display: inline-block;
+  min-width: 160px;
+  width: 32%;
+  height: 40px;
+  vertical-align: middle;
+  color: #555;
+  padding-left: 5px;
+  font-size: 11px;
+
+
+}
+
+div.A div.AAEA input[type="text"],
+div.A div.AAEA span.font1 {
+  width: 98.65%;
+  text-align: left;
+}
+
+.text-input {
+  border-radius: 1px;
+  border: 1px solid #a2a2a2;
+  border-top: 1px solid #999999;
+  height: 25px;
+
+  padding: 1px;
+
+
+}
+
+.text-input:focus {
+  outline: none;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+  border: 1px solid #417bd8;
+}
+
+div.A div.AAF span.font1 {
+  font-family: monospace;
+}
+
+.dropDown {
+  border-radius: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  border: 1px solid #a2a2a2;
+  background-color: #f2f2f2;
+  font-weight: 700;
+  height: 25px;
+  padding: 1px;
+  width: 100%;
+}
+/* MEDIA QUERIERS */
+
+@media (max-width: 1056px) {
+  div.AAC {
+    display: NONE !important
+  }
+
+  div.AAF {
+    display: NONE !important;
+  }
+
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hideThisContainer {
+  width: 100%;
+  align-self: center;
+
+
+}
+
+.hideThisContainer {
+  display: none;
+}
+
+
+.show:checked~.hideThisContainer {
+  display: block;
+  margin: 20 px;
+}
+
+.hide:checked~.hideThisContainer {
+  display: none;
+  margin: 20px;
+}
+
+
+#smashThatSearchBtn {
+  background-color: #4286f3;
+  margin: 5px;
+  padding: 5px 10px;
+  font: bold 11px/30px arial, serif;
+  border-radius: 3px;
+  color: white;
+}
+
+#smashThatSearchBtn1 {
+  background-color: #4286f3;
+  margin: 5px;
+  padding: 5px 10px;
+  font: bold 11px/30px arial, serif;
+  border-radius: 3px;
+  color: white;
+  border: 2px solid rgb(54, 54, 54);
+}
+
+.littleFont {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.littleFont1 {
+  font-size: 12px;
+  font-family: monospace;
+}
+
+/* experimental */
+
+.dark-mode {
+  filter: invert(100%);
+}

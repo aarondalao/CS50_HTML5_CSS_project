@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <title>Google Search</title>
+</head>
+
+<body>
+    <header id="header_container">
+        <nav class="navigation_bar">
+            <ul id="navigation_list">
+                <li class="leftnav">
+                    <a href="https://about.google/?fg=1&utm_source=google-AU&utm_medium=referral&utm_campaign=hp-header">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="imageSearch.html">Images</a>
+                </li>
+                <li>
+                    <a href="advanceSearch.html">Advance Search</a>
+                </li>
+                
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class="inside_container">
+            <a href="index.html">
+                <img class="distancia_amigo" style="max-width: 200px; min-width 100px; padding-top: 50px;" src="asset_image/Festisite_google_(6).png" alt="boogle">
+            </a>
+            <form class="distancia_amigo" action="https://google.com/search">
+                <div class="input_container">
+                    <span class="fa fa-search"></span>
+                    <input type="text" autocomplete="off" name="q" >
+                </div>
+                <br><br><br><br>
+                <input class="btn" type="submit" name="btnK" value="Google Search">
+                <input class="btn" type="submit" name="btnI" value="I am Feeling Lucky">
+            </form>
+        </div>
+    </main>
+    
+                <!--the part at the bottom is a trial of using a dark mode using  JS  -->
+
+    <!-- <footer>
+        <div class="foot-wrapper">
+            <P>press enter key for dark mode!! 
+                <em> note: still experimental. use at your own risk!</em>
+            </P>
+        </div>
+    </footer> -->
+</body>
+<!-- remove the script later -->
+<!-- <script>
+    document.onkeypress = function(e){
+
+        e = e || window.event;
+        if(e.keyCode === 13){
+            document.documentElement.classList.toggle('dark-mode');
+        }
+    }
+
+</script> -->
+
+</html>
